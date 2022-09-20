@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-grid">
+      <div class="bg-dot">
+        <div class="container">
+          <div class="team-container">
+            <div class="team">
+              <div class="team-board">
+                <h3>烏野</h3>
+                <h4>Karasuno</h4>
+              </div>
+              <!-- <div class="light" id="light-k"></div> -->
+
+              <div class="score">
+                <p id="count-k">0</p>
+              </div>
+              <div class="add-container">
+                <div class="add" onclick="kOne()">+1</div>
+                <div class="add" onclick="kTwo()">+2</div>
+                <div class="add" onclick="kThree()">+3</div>
+              </div>
+            </div>
+            <div class="team">
+              <div class="team-board">
+                <h3>青城</h3>
+                <h4>Seijoh</h4>
+              </div>
+              <!-- <div class="light" id="light-s"></div> -->
+
+              <div class="score" id="home-score">
+                <p id="count-s">0</p>
+              </div>
+              <div class="add-container">
+                <div class="add" onclick="sOne()">+1</div>
+                <div class="add" onclick="sTwo()">+2</div>
+                <div class="add" onclick="sThree()">+3
+              </div>
+            </div>
+          </div>
+        <!-- <div class="new-game">New game</div> -->
+        </div>
+      </div>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
