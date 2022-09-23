@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    src: url('DigitalNumbers-Regular.woff');
+    }
+
 body {
   background-image: linear-gradient(to bottom, #ebdab2, #cf7722);
 }
